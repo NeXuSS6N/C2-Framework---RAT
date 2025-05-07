@@ -1,4 +1,23 @@
-# Required for the C2 server
-socket
-threading
-datetime
+# Core Requirements
+pycryptodome==3.20.0
+pillow==10.3.0
+psutil==5.9.8
+
+# Windows-Specific Packages
+pywin32==306; sys_platform == 'win32'
+pythoncom==1.0.0; sys_platform == 'win32'
+pypiwin32==223; sys_platform == 'win32'
+wmi==1.5.1; sys_platform == 'win32'
+
+# Networking
+pyopenssl==24.0.0
+requests==2.31.0
+
+# Utilities
+pyinstaller==6.6.0
+colorama==0.4.6
+tqdm==4.66.2
+
+# Optional
+scapy==2.5.0
+netifaces==0.11.0
