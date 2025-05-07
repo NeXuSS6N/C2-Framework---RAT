@@ -21,3 +21,5 @@ tqdm==4.66.2
 # Optional
 scapy==2.5.0
 netifaces==0.11.0
+PyQt5==5.15.9
+PyQt5-sip==12.12.1
