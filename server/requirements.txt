@@ -1,0 +1,4 @@
+# Required for the C2 server
+socket
+threading
+datetime

