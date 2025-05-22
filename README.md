@@ -62,6 +62,6 @@ By using this tool, you agree to use it **only legally and ethically**.
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/advanced-c2-framework.git
-cd advanced-c2-framework
+git clone https://github.com/NeXuSS6N/C2-Framework---RAT.git
+cd C2-Framework---RAT
 pip install -r requirements.txt
